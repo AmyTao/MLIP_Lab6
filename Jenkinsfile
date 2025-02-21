@@ -16,11 +16,10 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                sudo source /home/team09/Jenkins_lab6/mlip_lab6/bin/activate
-                sudo pip install --upgrade pip
-                sudo pip install pytest
+                sudo /home/team09/miniconda3/bin/conda init
                 # TODO Complete the command to run pytest
-                sudo pytest tests/
+                sudo /home/team09/miniconda3/bin/conda run -n mlip pytest tests/
+                
 
                 echo 'pytest is running'
                 // exit 1 #comment this line after implementing Jenkinsfile
