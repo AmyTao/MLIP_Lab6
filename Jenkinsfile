@@ -16,7 +16,7 @@ pipeline {
                 echo 'Test Step: We run testing tool like pytest here'
 
                 # TODO fill out the path to conda here
-                sudo /home/team09/Jenkins_lab6/mlip_lab6/bin/activate
+                sudo source /home/team09/Jenkins_lab6/mlip_lab6/bin/activate
                 sudo pip install --upgrade pip
                 sudo pip install pytest
                 # TODO Complete the command to run pytest
