@@ -22,7 +22,7 @@ pipeline {
                 
 
                 echo 'pytest is running'
-                // exit 1 #comment this line after implementing Jenkinsfile
+                # exit 1 #comment this line after implementing Jenkinsfile
                 '''
 
             }
